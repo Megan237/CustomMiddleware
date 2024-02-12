@@ -23,7 +23,7 @@ namespace Web.Middleware
             else
             {
                 context.Request.HttpContext.Items.Add("userdetails", "blabla");
-                await context.Response.WriteAsync("Failed");
+                await context.Response.WriteAsync("Failed!");
                 return;
 
 
